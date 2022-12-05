@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SudokuSolver | JS</title>
+  
+  
+  <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMWLv/zFi7/8xYu//MWLv/zFi7/9twy/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMWLv/AAAAANtwy/8AAAAAAAAAAMxYu//gn9f/zFi7/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzFi7/wAAAADbcMv/4J/X/+Cf1//gn9f/1HvG/8xYu/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMxYu//gn9f/23DL/////v/Ue8b/4J/X/wAAAADMWLv/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMWLv/4J/X/9twy/////7/4J/X/9R7xv8AAAAAzFi7/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzFi7/9twy//bcMv/23DL/9twy//MWLv/23DL/8xYu/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMxYu/8AAAAA23DL/wAAAAAAAAAAzFi7/+Cf1//MWLv/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACvr1cBzFi7/8xYu//MWLv/zFi7/8xYu//MWLv/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAA//8AAPgfAAD1jwAA9A8AAPAvAADwLwAA8A8AAPWPAAD4HwAA//8AAP//AAD//wAA//8AAA==" type="image/x-icon">
+  <script type="module" crossorigin src="/assets/index.ad2beddc.js"></script>
+  <link rel="stylesheet" href="/assets/index.ac2c67da.css">
+</head>
+<body>
+
+  <header class="mb-24 md:mb-32 py-6 lg:flex lg:items-center lg:justify-between lg:px-12">
+    <div class="logo flex items-center justify-center mb-6">
+      <span class="text-4xl">LOGO</span>
+    </div>
+    <nav class="flex flex-wrap justify-around text-sm lg:justify-evenly lg:w-2/4 lg:text-base">
+      <a href="" class="px-6 py-3 rounded-3xl">About</a>
+      <a target="_blank" href="https://github.com/iamattri0001" class="px-6 py-3 rounded-3xl">GitHub</a>
+      <a href="" class="px-6 py-3 rounded-3xl">Portfolio</a>
+    </nav>
+  </header>
+
+
+
+  <section id="hero" class="mb-32 w-11/12 lg:w-3/4 rounded-3xl font-semibold py-12 mx-auto flex flex-col items-center gap-3 lg:w-5/6">
+    <h4 class="text-lg md:text-xl lg:text-2xl">A very Simple and Reliable</h4>
+    <h1 class="text-6xl md:text-8xl md:my-2 lg:text-9xl lg:my-4 ">Sudoku Solver</h1>
+    <h4 class="text-lg md:text-xl lg:text-2xl">Based on Backtracking and JavaScript</h4>
+    <div id="hero-btns" class="flex gap-5 mt-6">
+      <button class="primary-btn"><a href="#main">Check Out</a></button>
+      <button class="primary-btn"><a href="">Get Code</a></button>
+    </div>
+  </section>  
+
+
+
+
+  <section id="main" class="mb-32 relative">
+    <div id="msg-box" class="mx-auto w-2/5 py-2 text-center top-[-20px]"></div>
+    <div id="grid">
+    </div>
+    <div id="controls" class=" mt-6 flex items-center justify-center gap-5">
+      <button id="solve" class="primary-btn">Solve</button>
+      <button id="reset" class="primary-btn">Reset</button>
+    </div>
+  </section>
+
+  
+</body>
+</html>
